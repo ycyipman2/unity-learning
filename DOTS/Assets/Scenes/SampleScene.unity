@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 502637844}
   - component: {fileID: 502637843}
+  - component: {fileID: 502637845}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -147,12 +148,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502637842}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7dd91f925693ffc4987e92830f65c37d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: a96d8025499e69846877ee2bf3a73594, type: 2}
 --- !u!4 &502637844
 Transform:
@@ -168,6 +169,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &502637845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502637842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eefaaf55fe6e53e4290f11ed94e193c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useJobs: 0
+  pfPlayer: {fileID: 4274606585464962910, guid: 675782788a9d4ec4291bc9d4a2903177, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
