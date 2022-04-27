@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TestMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: ef814304db9dd8848a8d6fdf323a8916, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 4e8805e571b7e411db7bc0a66eba5925, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -95,6 +95,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ClipRate: 0
     - _ColorTemperature: 0
     - _ColorTint: 0
     - _Cull: 2
@@ -102,11 +103,13 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EdgeWidth: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _NoiseScale: 50
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
